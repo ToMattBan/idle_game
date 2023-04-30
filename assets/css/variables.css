@@ -1,0 +1,29 @@
+/* COLORS */
+:root {
+    --green: #00aa44;
+    
+    --pureWhite: #ffffff;
+    --background: #f9f9f9;
+    --grayLight: #d9d9d9;
+    
+    --grayMedium: #e6e6e6;
+    --gray: #b3b3b3;
+    --grayDark: #808080;
+    --pureBlack: #000000;
+  }
+  
+  /* SIZES */
+  :root {
+    --smallS: 8px;
+    --small:  16px;
+    --smallM: 24px;
+    --normal: 32px;
+    --largeS: 48px;
+    --large:  64px;
+    --largeM: 128px;
+  }
+  
+  /* DEFAULTS */
+  :root {
+    --borderRadius: var(--small);
+  }
