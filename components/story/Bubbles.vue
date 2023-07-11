@@ -20,6 +20,7 @@ const props = defineProps({
 .message {
   margin: var(--small) 0;
   display: flex;
+  align-items: flex-end;
 
   &.startRight {
     flex-direction: row-reverse;
@@ -53,6 +54,7 @@ const props = defineProps({
     background-color: var(--blueDark);
     color: var(--pureWhite);
     border-radius: var(--borderRadius) var(--borderRadius) var(--borderRadius) 0;
+    max-width: calc(100% - 100px);
   }
 }
 </style>
